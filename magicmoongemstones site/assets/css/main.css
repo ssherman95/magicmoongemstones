@@ -2977,7 +2977,32 @@ input, select, textarea {
 			}
 
 	}
-.c-item{
-	height:500px;
+
+@keyframes slide {
+	from{
+		transform:translateX(0);
+	}
+	to{
+		transform: translateX(-100%);
+	}
+	
+}	
+
+.logos {
+	overflow: hidden;
+	padding: 60px 0;
+	white-space: nowrap;
 }
+
+.logos-slide {
+	display: inline-block;
+	animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+	height: 500px;
+	margin-left: -2px;
+	margin-right: -2px;
+}
+
 	
