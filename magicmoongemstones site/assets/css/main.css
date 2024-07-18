@@ -1619,7 +1619,7 @@ input, select, textarea {
 		cursor: pointer;
 		border: 0;
 		border-radius: 5px;
-		background: #273b2b;
+		background: #a719cb;
 		color: #fff !important;
 		font-weight: 700;
 		outline: 0;
@@ -2370,6 +2370,15 @@ input, select, textarea {
 	
 		}
 
+		.logos-slide img {
+			height: 500px;
+		}
+
+		.logos {
+			padding-top: 80px;
+			margin-bottom: 60px;
+			}
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -2388,6 +2397,15 @@ input, select, textarea {
 				margin-bottom: -55px;
 		
 			}
+
+			.logos-slide img {
+				height: 500px;
+			}
+
+			.logos {
+				padding-top: 60px;
+				margin-bottom: 50px;
+				}
 
 	}
 
@@ -2491,6 +2509,15 @@ input, select, textarea {
 			#navPanel, #titleBar {
 				display: none;
 			}
+
+			.logos-slide img {
+				height: 400px;
+			}
+
+			.logos {
+				padding-top: 50px;
+				margin-bottom: 30px;
+				}
 
 	}
 
@@ -2753,6 +2780,15 @@ input, select, textarea {
 				display: none;
 			}
 
+			.logos-slide img {
+				height: 300px;
+			}
+
+			.logos {
+				padding-top: 40px;
+				margin-bottom: -40px;
+				}
+
 	}
 	
 
@@ -2976,6 +3012,15 @@ input, select, textarea {
 				padding: 40px 0 20px 0;
 			}
 
+			.logos-slide img {
+				height: 200px;
+			}
+
+			.logos {
+			padding-top: 30px;
+			margin-bottom: -30px;
+			}
+
 	}
 
 @keyframes slide {
@@ -2990,7 +3035,6 @@ input, select, textarea {
 
 .logos {
 	overflow: hidden;
-	padding: 60px 0;
 	white-space: nowrap;
 }
 
@@ -3000,7 +3044,6 @@ input, select, textarea {
 }
 
 .logos-slide img {
-	height: 500px;
 	margin-left: -2px;
 	margin-right: -2px;
 }
