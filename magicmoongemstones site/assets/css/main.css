@@ -2379,6 +2379,23 @@ input, select, textarea {
 			margin-bottom: 60px;
 			}
 
+		.logos .overlay{
+			top: 35%;
+			padding: 25px;
+		}
+
+		.logos .overlay .banner-text {
+			font-size: 70px;
+		}
+
+		.logos .overlay .banner-small-text {
+			font-size: 20px;
+		}
+
+		.logos .overlay .banner-color-text {
+			font-size: 20px;
+		}
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -2406,6 +2423,19 @@ input, select, textarea {
 				padding-top: 60px;
 				margin-bottom: 50px;
 				}
+
+			.logos .overlay{
+				top: 36%;
+				padding: 20px;
+			}
+
+			.logos .overlay .banner-text {
+				font-size: 65px;
+			}
+
+			.logos .overlay .banner-small-text {
+				font-size: 30px;
+			}
 
 	}
 
@@ -2518,6 +2548,23 @@ input, select, textarea {
 				padding-top: 50px;
 				margin-bottom: 30px;
 				}
+
+			.logos .overlay{
+				top: 35%;
+				padding: 15px;
+			}
+
+			.logos .overlay .banner-text {
+				font-size: 45px;
+			}
+
+			.logos .overlay .banner-small-text {
+				font-size: 20px;
+			}
+
+			.logos .overlay .banner-color-text {
+				font-size: 20px;
+			}
 
 	}
 
@@ -2789,6 +2836,23 @@ input, select, textarea {
 				margin-bottom: -40px;
 				}
 
+			.logos .overlay{
+				top: 23%;
+				padding: 10px;
+			}
+
+			.logos .overlay .banner-text {
+				font-size: 35px;
+			}
+
+			.logos .overlay .banner-small-text {
+				font-size: 20px;
+			}
+
+			.logos .overlay .banner-color-text {
+				font-size: 20px;
+			}
+
 	}
 	
 
@@ -3021,6 +3085,23 @@ input, select, textarea {
 			margin-bottom: -30px;
 			}
 
+			.logos .overlay{
+				top: 18%;
+				padding: 5px;
+			}
+
+			.logos .overlay .banner-text {
+				font-size: 22px;
+			}
+
+			.logos .overlay .banner-small-text {
+				font-size: 12px;
+			}
+
+			.logos .overlay .banner-color-text {
+				font-size: 12px;
+			}
+
 	}
 
 @keyframes slide {
@@ -3046,6 +3127,36 @@ input, select, textarea {
 .logos-slide img {
 	margin-left: -2px;
 	margin-right: -2px;
+}
+
+.logos .overlay {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	left: 50%;
+
+	transform: translate(-50%,-50%);
+}
+
+.logos .overlay .banner-text {
+	color: #fff;
+	font-family: 'groovy', Berolina;
+	font-weight: bold;
+}
+
+.logos .overlay .banner-small-text {
+	color: #fff;
+	font-family: 'groovy', Berolina;
+	font-weight: bold;
+}
+
+.logos .overlay .banner-color-text {
+	color: #e9b5ff;
+}
+
+@font-face {
+	font-family: 'groovy';
+	src: url('assets/Berolina/Berolina.otf');
 }
 
 	
